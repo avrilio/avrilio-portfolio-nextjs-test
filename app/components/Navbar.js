@@ -33,10 +33,9 @@ export default function Navbar() {
                     const Icon = socialMedia.Icon;
 
                     return (
-                        <li>
+                        <li key={index}> 
                             <Link
                                 href={socialMedia.Link}
-                                key={index}
                                 aria-label={socialMedia.Label}
                             >
                                 <Icon />
