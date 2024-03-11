@@ -36,7 +36,6 @@ export default function Navbar() {
                         <li>
                             <Link
                                 href={socialMedia.Link}
-                                key={index}
                                 aria-label={socialMedia.Label}
                             >
                                 <Icon />
